@@ -34,6 +34,6 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           message: "Update sponsors"
-          add: "data.*"
+          add: "sponsors.*"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
