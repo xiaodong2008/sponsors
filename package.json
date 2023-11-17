@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "build": "sponsorkit"
+    "build": "sponsorkit -w 800 --dir . && sponsorkit -w 1000 --name sponsors.wide --dir ."
   },
   "dependencies": {
-    "sponsorkit": "^0.8.5"
+    "sponsorkit": "^0.8.9"
   }
 }
