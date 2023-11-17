@@ -12,6 +12,8 @@ on:
 jobs:
   update-sponsors:
     runs-on: ubuntu-latest
+    # env name
+    environment: sponsorkit
     steps:
       - uses: actions/checkout@v3
 
