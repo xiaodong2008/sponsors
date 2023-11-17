@@ -33,9 +33,7 @@ jobs:
       - name: Commit
         uses: EndBug/add-and-commit@v4
         with:
-          message: "chore: update sponsors.svg"
-          add: "sponsors.*"
+          message: "Update sponsors"
+          add: "data.*"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-permissions: write-all
