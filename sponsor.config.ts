@@ -2,7 +2,6 @@ import {defineConfig, presets} from "sponsorkit";
 
 export default defineConfig({
     formats: ['svg', 'json'],
-    outputDir: 'data',
     tiers: [
         {
             title: 'Past Sponsors',
