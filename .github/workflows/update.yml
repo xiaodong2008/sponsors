@@ -31,7 +31,7 @@ jobs:
           SPONSORKIT_GITHUB_LOGIN: dy-xiaodong2022
 
       - name: Commit
-        uses: EndBug/add-and-commit@v4
+        uses: EndBug/add-and-commit@v9
         with:
           message: "Update sponsors"
           add: "data.*"
