@@ -10,16 +10,12 @@ export default defineConfig({
         },
         {
             title: 'Backers',
-            // to replace the entire tier rendering
-            // compose: (composer, tierSponsors, config) => {
-            //   composer.addRaw(
-            //     '<-- custom svg -->',
-            //   )
-            // },
+            monthlyDollars: 3,
+            preset: presets.base,
         },
         {
             title: 'Sponsors',
-            monthlyDollars: 10,
+            monthlyDollars: 8,
             preset: presets.medium,
             // to insert custom elements after the tier block
             composeAfter: (composer, _tierSponsors, _config) => {
@@ -28,12 +24,12 @@ export default defineConfig({
         },
         {
             title: 'Silver Sponsors',
-            monthlyDollars: 20,
+            monthlyDollars: 16,
             preset: presets.large,
         },
         {
             title: 'Gold Sponsors',
-            monthlyDollars: 60,
+            monthlyDollars: 32,
             preset: presets.xl,
         },
     ]
