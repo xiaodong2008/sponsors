@@ -31,7 +31,7 @@ jobs:
         run: npm run build
         env:
           SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
-          SPONSORKIT_GITHUB_LOGIN: dy-xiaodong2022
+          SPONSORKIT_GITHUB_LOGIN: xiaodong2008
 
       - name: Commit
         uses: EndBug/add-and-commit@v9
