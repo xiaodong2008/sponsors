@@ -3,6 +3,6 @@
     "build": "sponsorkit -w 800 --dir . && sponsorkit -w 1000 --name sponsors.wide --dir ."
   },
   "dependencies": {
-    "sponsorkit": "^0.12.2"
+    "sponsorkit": "^0.14.3"
   }
 }
